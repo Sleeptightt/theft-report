@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\bin\Debug\Model.exe.config
+C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\bin\Debug\Model.exe
+C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\bin\Debug\Model.pdb
+C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\obj\Debug\Model.exe
+C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\obj\Debug\Model.pdb
