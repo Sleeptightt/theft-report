@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Model;
 
 namespace UserInterface
 {
@@ -36,8 +37,9 @@ namespace UserInterface
             String location = txtLocation.Text;
             String time = timeTheft.Text;
             String description = txtDescription.Text;
+            Report report = new Report(name, lname, id, program, location, time, description);
             String text = name + "\n" + lname + "\n" + id + "\n" + program + "\n" + location + "\n" + time + "\n" + description;
-            System.IO.File.WriteAllText(@"output.txt", text);
+            System.IO.File.WriteAllText("..\\..\\..\\Resources\\output.txt", text);
             MessageBox.Show("The report has been submitted successfully, to see it go to the resource folder, the file is named output");
         }
 

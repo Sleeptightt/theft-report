@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {   
-    class Report    {
+    public class Report    {
         private String firstName;
         private String lastName;
         private String icesiId;
@@ -25,9 +25,11 @@ namespace Model
             timeOfTheft = time;
             descriptionOfTheft = description;
         }
-        
 
-        
-       
+        static void Main()
+        {
+        }
+
+
     }
 }
