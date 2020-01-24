@@ -4,3 +4,6 @@ C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\bin\Debug\Model.pdb
 C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\obj\Debug\Model.csprojAssemblyReference.cache
 C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\obj\Debug\Model.exe
 C:\Users\User\Desktop\Integrador\form in c#\TheftForm\Model\obj\Debug\Model.pdb
+C:\Users\Carlos Andrés\source\repos\theft-report\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Carlos Andrés\source\repos\theft-report\Model\obj\Debug\Model.exe
+C:\Users\Carlos Andrés\source\repos\theft-report\Model\obj\Debug\Model.pdb

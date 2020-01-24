@@ -79,9 +79,9 @@
             this.groupBoxForm.Cursor = System.Windows.Forms.Cursors.Default;
             this.groupBoxForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBoxForm.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.groupBoxForm.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxForm.Location = new System.Drawing.Point(12, 90);
             this.groupBoxForm.Name = "groupBoxForm";
-            this.groupBoxForm.Size = new System.Drawing.Size(853, 396);
+            this.groupBoxForm.Size = new System.Drawing.Size(853, 400);
             this.groupBoxForm.TabIndex = 0;
             this.groupBoxForm.TabStop = false;
             this.groupBoxForm.Text = "S";
@@ -255,7 +255,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(899, 450);
+            this.ClientSize = new System.Drawing.Size(899, 502);
             this.Controls.Add(this.groupBoxForm);
             this.Name = "Form1";
             this.Text = "Form1";
