@@ -15,6 +15,11 @@ namespace UserInterface
         public Form1()
         {
             InitializeComponent();
+            Bitmap img = new Bitmap(Application.StartupPath+@"\background.jpg");
+            groupBoxForm.BackgroundImage = img;
+            groupBoxForm.BackgroundImageLayout = ImageLayout.Stretch;
+           
+        
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -77,6 +82,11 @@ namespace UserInterface
                 pictureBoxStolenObject.SizeMode = PictureBoxSizeMode.Zoom;
                 pictureBoxStolenObject.Load(urlArchive);
             }
+        }
+
+        private void groupBoxForm_Resize(object sender, EventArgs e)
+        {
+            groupBoxForm.Width = this.Width;
         }
     }
 }

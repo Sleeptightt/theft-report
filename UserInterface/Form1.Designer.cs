@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxForm = new System.Windows.Forms.GroupBox();
             this.open_file = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBoxStolenObject = new System.Windows.Forms.PictureBox();
@@ -48,47 +48,51 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStolenObject)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // groupBoxForm
             // 
-            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.groupBox1.Controls.Add(this.open_file);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.pictureBoxStolenObject);
-            this.groupBox1.Controls.Add(this.txtDescription);
-            this.groupBox1.Controls.Add(this.timeTheft);
-            this.groupBox1.Controls.Add(this.txtProgram);
-            this.groupBox1.Controls.Add(this.txtID);
-            this.groupBox1.Controls.Add(this.txtLastName);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.btnSubmit);
-            this.groupBox1.Controls.Add(this.txtLocation);
-            this.groupBox1.Controls.Add(this.txtName);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(875, 414);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Form Details";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.groupBoxForm.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBoxForm.Controls.Add(this.open_file);
+            this.groupBoxForm.Controls.Add(this.label8);
+            this.groupBoxForm.Controls.Add(this.pictureBoxStolenObject);
+            this.groupBoxForm.Controls.Add(this.txtDescription);
+            this.groupBoxForm.Controls.Add(this.timeTheft);
+            this.groupBoxForm.Controls.Add(this.txtProgram);
+            this.groupBoxForm.Controls.Add(this.txtID);
+            this.groupBoxForm.Controls.Add(this.txtLastName);
+            this.groupBoxForm.Controls.Add(this.label7);
+            this.groupBoxForm.Controls.Add(this.label6);
+            this.groupBoxForm.Controls.Add(this.label5);
+            this.groupBoxForm.Controls.Add(this.label4);
+            this.groupBoxForm.Controls.Add(this.label3);
+            this.groupBoxForm.Controls.Add(this.btnSubmit);
+            this.groupBoxForm.Controls.Add(this.txtLocation);
+            this.groupBoxForm.Controls.Add(this.txtName);
+            this.groupBoxForm.Controls.Add(this.label2);
+            this.groupBoxForm.Controls.Add(this.label1);
+            this.groupBoxForm.Cursor = System.Windows.Forms.Cursors.Default;
+            this.groupBoxForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBoxForm.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.groupBoxForm.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxForm.Name = "groupBoxForm";
+            this.groupBoxForm.Size = new System.Drawing.Size(853, 396);
+            this.groupBoxForm.TabIndex = 0;
+            this.groupBoxForm.TabStop = false;
+            this.groupBoxForm.Text = "S";
+            this.groupBoxForm.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.groupBoxForm.Resize += new System.EventHandler(this.groupBoxForm_Resize);
             // 
             // open_file
             // 
             this.open_file.Location = new System.Drawing.Point(601, 317);
             this.open_file.Name = "open_file";
-            this.open_file.Size = new System.Drawing.Size(75, 23);
+            this.open_file.Size = new System.Drawing.Size(111, 40);
             this.open_file.TabIndex = 16;
             this.open_file.Text = "open image";
             this.open_file.UseVisualStyleBackColor = true;
@@ -201,9 +205,9 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(403, 365);
+            this.btnSubmit.Location = new System.Drawing.Point(396, 357);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.Size = new System.Drawing.Size(82, 31);
             this.btnSubmit.TabIndex = 4;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -252,11 +256,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 450);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBoxForm);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxForm.ResumeLayout(false);
+            this.groupBoxForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStolenObject)).EndInit();
             this.ResumeLayout(false);
 
@@ -264,7 +268,7 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxForm;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSubmit;
