@@ -25,3 +25,12 @@ C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\obj\Debug
 C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.cache
 C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\obj\Debug\UserInterface.exe
 C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\obj\Debug\UserInterface.pdb
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\bin\Debug\UserInterface.exe.config
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\bin\Debug\UserInterface.exe
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\bin\Debug\UserInterface.pdb
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\obj\Debug\UserInterface.Form1.resources
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\obj\Debug\UserInterface.Properties.Resources.resources
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.cache
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\obj\Debug\UserInterface.exe
+C:\Users\Carlos Andrés\Source\Repos\theft-report\UserInterface\obj\Debug\UserInterface.pdb

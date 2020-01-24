@@ -45,5 +45,38 @@ namespace UserInterface
         {
 
         }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFile_click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Images|*.jpg;*png";
+            ofd.Title = "Opening image";
+
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                string urlArchive = ofd.FileName;
+                string name = ofd.SafeFileName;
+
+
+                pictureBoxStolenObject.SizeMode = PictureBoxSizeMode.CenterImage;
+                pictureBoxStolenObject.SizeMode = PictureBoxSizeMode.Zoom;
+                pictureBoxStolenObject.Load(urlArchive);
+            }
+        }
     }
 }
