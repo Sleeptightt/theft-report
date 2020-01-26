@@ -30,6 +30,38 @@ namespace Model
         {
         }
 
+        public String getfirstN()
+        {
+            return this.firstName;
+        }
 
+        public String getlastN()
+        {
+            return this.lastName;
+        }
+
+        public String getid()
+        {
+            return this.icesiId;
+        }
+
+        public String getProgram()
+        {
+            return this.program;
+        }
+
+        public String getLocation()
+        {
+            return this.theftLocation;
+        }
+
+        public String getTime()
+        {
+            return this.timeOfTheft;
+        }
+        public String getDescription()
+        {
+            return this.descriptionOfTheft;
+        }
     }
 }

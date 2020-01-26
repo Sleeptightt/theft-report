@@ -48,6 +48,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnSavedReports = new System.Windows.Forms.Button();
             this.groupBoxForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStolenObject)).BeginInit();
             this.SuspendLayout();
@@ -251,11 +252,22 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btnSavedReports
+            // 
+            this.btnSavedReports.Location = new System.Drawing.Point(811, 37);
+            this.btnSavedReports.Name = "btnSavedReports";
+            this.btnSavedReports.Size = new System.Drawing.Size(75, 23);
+            this.btnSavedReports.TabIndex = 1;
+            this.btnSavedReports.Text = "Saved reports";
+            this.btnSavedReports.UseVisualStyleBackColor = true;
+            this.btnSavedReports.Click += new System.EventHandler(this.btnSavedReports_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 502);
+            this.Controls.Add(this.btnSavedReports);
             this.Controls.Add(this.groupBoxForm);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -288,6 +300,7 @@
         private System.Windows.Forms.PictureBox pictureBoxStolenObject;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button open_file;
+        private System.Windows.Forms.Button btnSavedReports;
     }
 }
 

@@ -47,3 +47,8 @@ C:\Users\sleep\Desktop\theft-report\UserInterface\bin\Debug\Model.exe
 C:\Users\sleep\Desktop\theft-report\UserInterface\bin\Debug\Model.pdb
 C:\Users\sleep\Desktop\theft-report\UserInterface\bin\Debug\Model.exe.config
 C:\Users\sleep\Desktop\theft-report\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\bin\Debug\Model.exe
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\bin\Debug\Model.pdb
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\bin\Debug\Model.exe.config
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\UserInterface\obj\Debug\UserInterface.Form2.resources

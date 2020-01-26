@@ -13,3 +13,9 @@ C:\Users\sleep\Desktop\theft-report\Model\obj\Debug\Model.pdb
 C:\Users\sleep\Desktop\theft-report\Model\bin\Debug\Model.exe.config
 C:\Users\sleep\Desktop\theft-report\Model\bin\Debug\Model.exe
 C:\Users\sleep\Desktop\theft-report\Model\bin\Debug\Model.pdb
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\Model\bin\Debug\Model.exe.config
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\Model\bin\Debug\Model.exe
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\Model\bin\Debug\Model.pdb
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\Model\obj\Debug\Model.exe
+C:\Users\User\Desktop\Integrador\form in c#\theft-report\Model\obj\Debug\Model.pdb

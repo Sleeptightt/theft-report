@@ -1,7 +1,2 @@
-dsa
-dsadsa
-dsff
-sdf
-sff
-viernes, 24 de enero de 2020
-fdsf
+Cesar;Canales;A00345026;System's engineering;Cafeteria;domingo, 26 de enero de 2020;Me robaron y me siento mal, ayuda por favor.
+Carlos;Restrepo;A00345026;Sistemas;Cancha 1;domingo, 26 de enero de 2020;Se llevaron mi portatil :(
